@@ -16,7 +16,7 @@ import ru.emoo.videoconf.repositories.UserRepository;
 public class UserService {
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
-    private final UserDao userDao;
+    //private final UserDao userDao;
 
     public boolean createUser(User user) {
         String userEmail = user.getEmail();
@@ -30,6 +30,7 @@ public class UserService {
     }
 
     public boolean delete(Integer userId) {
-        return userDao.delete(userId);
+        //return userDao.delete(userId);
+        return true;
     }
 }
