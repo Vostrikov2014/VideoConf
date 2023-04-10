@@ -30,5 +30,7 @@ public class ProductServiceTest {
         //doReturn(true).when(productRepository.findByTitle(""));
          var actualResult = productService.listProducts("");
         assertThat(actualResult).isEmpty();
+        //добавим комментарии чтобы протестировать объединение
+        //коммитов
     }
 }
