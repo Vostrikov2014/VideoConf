@@ -32,5 +32,6 @@ public class ProductServiceTest {
         assertThat(actualResult).isEmpty();
         //добавим комментарии чтобы протестировать объединение
         //коммитов
+        //добавим еще коммит и попробуем объединить
     }
 }
